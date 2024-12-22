@@ -116,6 +116,11 @@
 	    text = ''
 	      #!/bin/sh
 
+       if [ -d "/mnt" ]; then
+    echo "Properly mounted"
+else
+    echo "Not properly mounted"
+fi
        sudo mkdir -p /mnt/home/verz
        echo "created folder Ong"
 	    '';
