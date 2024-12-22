@@ -116,13 +116,18 @@
 	    text = ''
 	      #!/bin/sh
 
-       if [ -d "/mnt" ]; then
-    echo "Properly mounted"
-else
-    echo "Not properly mounted"
-fi
-       sudo mkdir -p /mnt/home/verz
-       echo "created folder Ong"
+       echo "Proceeding with installation"
+
+       HOME_DIR = "/home"
+       if [ -d "/home" ]; then
+         echo "Looks like you've built the system once before"
+       else
+         echo "Looks like you're in a live environment"
+         HOME_DIR = "/mnt/home"
+       fi
+
+       echo "Creating a home folder if it doesn't exist already
+       sudo mkdir -p "$HOME_DIR/${users -A 0}"
 	    '';
           };
         });
