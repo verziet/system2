@@ -116,7 +116,7 @@
 	    text = ''
 	      #!/bin/sh
 
-       mkdir -p /mnt/home/verz
+       sudo mkdir -p /mnt/home/verz
        echo "created folder Ong"
 	    '';
           };
