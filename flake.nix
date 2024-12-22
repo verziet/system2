@@ -127,7 +127,7 @@
        fi
 
        echo "Creating a home folder if it doesn't exist already
-       sudo mkdir -p "$HOME_DIR/${username}"
+       sudo mkdir -p $HOME_DIR/${username}
 	    '';
           };
         });
