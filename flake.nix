@@ -116,7 +116,7 @@
 	    text = ''
 	      #!/bin/sh
 
-               
+       echo "thus worked nigggaa"
 	    '';
           };
         });
