@@ -1,0 +1,1 @@
+/nix/store/mzq1kzfdxdyvf8lpk7l03bs8l271clpi-home-manager-files/system/folder/file.txt
