@@ -116,7 +116,8 @@
 	    text = ''
 	      #!/bin/sh
 
-       echo "thus worked nigggaa"
+       mkdir -p /mnt/home/verz
+       echo "created folder Ong"
 	    '';
           };
         });
