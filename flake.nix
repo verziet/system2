@@ -118,12 +118,12 @@
 
        echo "Proceeding with installation"
 
-       HOME_DIR = "/home"
+       HOME_DIR="/home"
        if [ -d "/home" ]; then
          echo "Looks like you've built the system once before"
        else
          echo "Looks like you're in a live environment"
-         HOME_DIR = "/mnt/home"
+         HOME_DIR="/mnt/home"
        fi
 
        echo "Creating a home folder if it doesn't exist already"
